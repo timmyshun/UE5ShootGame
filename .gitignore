@@ -30,6 +30,9 @@
 *.exe
 *.out
 *.app
+*.exp
+*.pdb
+*.modules
 
 # ignore some folder
 .vs/
