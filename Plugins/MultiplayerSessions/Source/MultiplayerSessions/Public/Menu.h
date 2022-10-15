@@ -22,7 +22,6 @@ public:
 	void MenuSetup(int32 TheNumPublicConnections = 4, FString TypeOfMatch = TEXT("FreeForAll"), FString LobbyPath=FString(TEXT("/Game/ThirdPerson/Maps/Lobby")));
 protected:
 	virtual bool Initialize() override;
-	virtual void OnLevelRemovedFromWorld(ULevel* InLevel, UWorld* InWorld) override;
 
 	//
 	// Callbacks for the cuso
